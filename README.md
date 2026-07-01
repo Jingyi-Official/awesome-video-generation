@@ -1,6 +1,13 @@
 # awesome-video-generation <!-- 2D person independent / dependent-->
 
-## Company
+<!-- template
+  ** **<br>
+  * *<br>
+  CVPR 2026. [[PDF]( )] [[Project]( )] [[Code]( )]
+-->
+
+## General Video Generation
+
 **InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation**<br>
 *ByteDance.*<br>
 ByteDance 2025. [[PDF](https://arxiv.org/pdf/2511.04675v1)] [[Code](https://github.com/FoundationVision/InfinityStar)] [[Project](https://github.com/FoundationVision/InfinityStar)]
@@ -25,7 +32,6 @@ ECCV 2024. [[PDF](https://arxiv.org/pdf/2311.10709)] [[Project](https://emu-vide
 *Yixin Liu, Kai Zhang, Yuan Li, Zhiling Yan, Chujie Gao, Ruoxi Chen, Zhengqing Yuan, Yue Huang, Hanchi Sun, Jianfeng Gao, Lifang He, Lichao Sun.*<br>
 OpenAI 2024.
 
-
 **Imagen Video: High Definition Video Generation With Diffusion Models**<br>
 *Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, Mohammad Norouzi, David J. Fleet, Tim Salimans.*<br>
 Google Research 2023. [[PDF](https://arxiv.org/abs/2210.02303)] [[Code](https://github.com/lucidrains/imagen-pytorch)] [[Project](https://imagen.research.google/video/)]
@@ -35,14 +41,30 @@ Google Research 2023. [[PDF](https://arxiv.org/abs/2210.02303)] [[Code](https://
 ICLR 2023. [[PDF](https://openreview.net/pdf?id=vOEXS39nOF)] [[Code](https://github.com/lucidrains/phenaki-pytorch)] [[Project](https://phenaki.video/#)]
 
 ## Unified Generation
+**UniVideo: Unified Understanding, Generation, and Editing for Videos**<br>
+* *<br>
+ICLR 2026. [[PDF]( )] [[Project]( )] [[Code]( )]
+
 **Wan-Animate: Unified Character Animation and Replacement with Holistic Replication**<br>
 *Gang Cheng, Xin Gao, Li Hu, Siqi Hu, Mingyang Huang, Chaonan Ji, Ju Li, Dechao Meng, Jinwei Qi, Penchong Qiao, Zhen Shen, Yafei Song, Ke Sun, Linrui Tian, Feng Wang, Guangyuan Wang, Qi Wang, Zhongjian Wang, Jiayu Xiao, Sheng Xu, Bang Zhang, Peng Zhang, Xindi Zhang, Zhe Zhang, Jingren Zhou, Lian Zhuo.*<br>
 Alibaba 2025. [[PDF](https://arxiv.org/pdf/2509.14055)] [[Code](https://github.com/Wan-Video/Wan2.2)] [[Project](https://humanaigc.github.io/wan-animate/)]
 
 
 
-## Audio-to-video generation / 
-### Facial animation
+## Human Video Generation
+<!--
+  human-centric video generation
+    - portrait video generation 人像视频生成）
+    - human animation 人体动画生成）
+-->
+
+### Audio-to-video generation / 
+#### Facial animation
+**FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction**<br>
+*Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, Zhen Xing, Qi Dai, Kai Qiu, Chong Luo, Zuxuan Wu*<br>
+CVPR 2026. [[PDF](http://arxiv.org/abs/2512.16900)] [[Project](https://francis-rings.github.io/FlashPortrait)] [[Code](https://github.com/Francis-Rings/FlashPortrait?tab=readme-ov-file)]
+
+
 **Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation**<br>
 *Taekyung Ki, Sangwon Jang, Jaehyeong Jo, Jaehong Yoon, Sung Ju Hwang.*<br>
 2025. [[PDF](https://arxiv.org/pdf/2601.00664)] [[Project](https://taekyungki.github.io/AvatarForcing/)] [[Code](https://github.com/TaekyungKi/AvatarForcing)]
@@ -141,11 +163,10 @@ WACV 2024. [[PDF](https://mstypulkowski.github.io/diffusedheads/diffused_heads.p
 *Yifeng Ma, Suzhen Wang, Zhipeng Hu, Changjie Fan, Tangjie Lv, Yu Ding, Zhidong Deng, Xin Yu.*<br>
 AAAI 2023. [[PDF](https://arxiv.org/pdf/2301.01081)] [[Projects](https://github.com/FuxiVirtualHuman/styletalk)] [[Code](https://github.com/FuxiVirtualHuman/styletalk)]
 
-### Lipsync
+#### Lipsync
 **StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator**<br>
 *Taekyung Ki, Dongchan Min.*<br>
 ICCV 2023. [[PDF](https://arxiv.org/pdf/2305.05445)] [[Projects](https://hangz-nju-cuhk.github.io/projects/StyleSync)] [[Code](https://github.com/guanjz20/StyleSync)]
-
 
 
 **StyleLipSync: Style-based Personalized Lip-sync Video Generation**<br>
@@ -153,7 +174,7 @@ ICCV 2023. [[PDF](https://arxiv.org/pdf/2305.05445)] [[Projects](https://hangz-n
 ICCV 2023. [[PDF](https://arxiv.org/pdf/2305.00521)] [[Projects](https://stylelipsync.github.io/)] [[Code](https://github.com/TaekyungKi/StyleLipSync)]
 
 
-## Text-to-video generation
+### Text-to-video generation
 **Make-A-Video: Text-to-Video Generation without Text-Video Data**<br>
 *Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, Devi Parikh, Sonal Gupta, Yaniv Taigman.*<br>
 Meta 2023. [[PDF](https://openreview.net/pdf?id=nJfylDvgzlq)] [[Project](https://make-a-video.github.io/)]
@@ -163,20 +184,21 @@ Meta 2023. [[PDF](https://openreview.net/pdf?id=nJfylDvgzlq)] [[Project](https:/
 Google 2022. [[PDF](https://arxiv.org/pdf/2204.03458)] [[Project](https://video-diffusion.github.io)]
 
 
-## Pose-to-video generation
+### Pose-to-video generation
 **Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation**<br>
 *Li Hu, Xin Gao, Peng Zhang, Ke Sun, Bang Zhang, Liefeng Bo.*<br>
 Alibaba 2025. [[PDF](https://arxiv.org/pdf/2311.17117)] [[Code](https://github.com/HumanAIGC/AnimateAnyone)] [[Project](https://humanaigc.github.io/animate-anyone/)]
 
-## Controllable Video Generation
+### Controllable Video Generation
 **ATI: Any Trajectory Instruction for Controllable Video Generation**<br>
 *Angtian Wang, Haibin Huang, Jacob Zhiyuan Fang, Yiding Yang, Chongyang Ma.*<br>
 ICLR 2023. [[PDF](https://arxiv.org/pdf/2505.22944)] [[Code](https://github.com/bytedance/ATI)] [[Project](https://anytraj.github.io/)]
 
 
 
-## Evaluation
 
+
+## Evaluation
 **POSE: Phased One-Step Adversarial Equilibrium for Video Diffusion Models**<br>
 *Jiaxiang Cheng, Bing Ma, Xuhua Ren, Hongyi Jin, Kai Yu, Peng Zhang, Wenyue Li, Yuan Zhou, Tianxiang Zheng, Qinglin Lu.*<br>
 Tencent Hunyuan 2025. [[PDF](https://arxiv.org/pdf/2508.21019v1)] [[Project](https://pose-paper.github.io/)]
@@ -194,3 +216,49 @@ VGG 2025. [[PDF](https://arxiv.org/pdf/2509.12204v1)]
 **OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling**<br>
 *Shanghai AI Lab, ZJU.*<br>
 2025. [[PDF](https://arxiv.org/pdf/2509.12201v1)] [[Project](https://yangzhou24.github.io/OmniWorld/)] [[Code](https://github.com/yangzhou24/OmniWorld)]
+
+
+## Video Generation Modules
+<!-- A curated list of recent models for each modules in the video generation pipeline.-->
+
+### Video VAE / Autoencoders
+**VQ-VAE**<br>
+
+**VQGAN**<br>
+
+**3D Causal VAE**<br>
+*WAN: OPEN AND ADVANCED LARGE-SCALE VIDEO  GENERATIVE MODELS.*<br>
+Wan Team 2025. [[PDF](https://arxiv.org/pdf/2511.04675v1)] [[Code](https://github.com/FoundationVision/InfinityStar)] [[Project](https://github.com/FoundationVision/InfinityStar)]
+
+
+### Network Structure
+**UNet**<br>
+
+**VDM**<br>
+
+**DiT**<br>
+
+**MM-DiT**<br>
+
+
+### Acceleration Techniques
+
+
+## Datasets
+
+## Evaluation metrics and benchmarking findings
+
+| Metric | Description | Paper |
+|--------|-------------|-------|
+| PSNR | Peak signal-to-noise ratio | [Wikipedia](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) |
+| SSIM | Structural similarity index measure | [Wang et al., IEEE TIP 2004](https://ieeexplore.ieee.org/document/1284395) |
+| LMD | Landmark distance error | [THEval (arXiv:2511.04520)](https://arxiv.org/abs/2511.04520) |
+| LRA | Lip-reading accuracy | [Lip Reading in the Wild (arXiv:1806.06053)](https://arxiv.org/abs/1806.06053) |
+| FID | Fréchet inception distance | [Heusel et al., NeurIPS 2017 (arXiv:1706.08500)](https://arxiv.org/abs/1706.08500) |
+| LSE-D | Lip Sync Error - Distance | [Wav2Lip (arXiv:2008.10010)](https://arxiv.org/abs/2008.10010) |
+| LSE-C | Lip Sync Error - Confidence | [Wav2Lip (arXiv:2008.10010)](https://arxiv.org/abs/2008.10010) |
+| LPIPS | Learned Perceptual Image Patch Similarity | [Zhang et al., CVPR 2018 (arXiv:1801.03924)](https://arxiv.org/abs/1801.03924) |
+| NIQE | Natural Image Quality Evaluator | [Mittal et al., IEEE SPL 2013](https://ieeexplore.ieee.org/document/6353522) |
+| IS | Inception Score | 
+| AKD | Average Keypoint Distance
+| CSIM | Cosine Similarity
